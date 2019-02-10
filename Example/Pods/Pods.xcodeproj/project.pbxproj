@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		037B7E211789C8628E2A7787C5361CD4 /* Pods_CustomUIWindow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomUIWindow_Example.framework; path = "Pods-CustomUIWindow_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		038E9E0CCD18EC48D4712926B67C80DD /* CustomUIWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomUIWindow.framework; path = CustomUIWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		091B7321BAF4444F34FB2B63E4C89E4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		037B7E211789C8628E2A7787C5361CD4 /* Pods_CustomUIWindow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomUIWindow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		038E9E0CCD18EC48D4712926B67C80DD /* CustomUIWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomUIWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		091B7321BAF4444F34FB2B63E4C89E4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FDE608E656952A5E8B10119603F07A4 /* Pods-CustomUIWindow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomUIWindow_Example-Info.plist"; sourceTree = "<group>"; };
-		218710A866B884158907E61F2A479456 /* Pods_CustomUIWindow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomUIWindow_Tests.framework; path = "Pods-CustomUIWindow_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218710A866B884158907E61F2A479456 /* Pods_CustomUIWindow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomUIWindow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		276893C77FD1EB066B2DA771C579CC5D /* Pods-CustomUIWindow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIWindow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A6FB204673847A27169DCB8DA507870 /* Pods-CustomUIWindow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomUIWindow_Tests-dummy.m"; sourceTree = "<group>"; };
 		4A8D1CAC3ED132F19831E7FD54068856 /* Pods-CustomUIWindow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomUIWindow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -53,9 +53,9 @@
 		7C7AD06A4719E8FE97E923C24BF76462 /* Pods-CustomUIWindow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomUIWindow_Example-dummy.m"; sourceTree = "<group>"; };
 		83C5B0ADFFAF705094BBEAB1DC913161 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CustomUIWindow/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		859DE8EE9F0A3F5771C2941011BB0FCA /* Pods-CustomUIWindow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomUIWindow_Example-frameworks.sh"; sourceTree = "<group>"; };
-		86222DE37C3EE27CB8C8A36D567CC8CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		86222DE37C3EE27CB8C8A36D567CC8CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		883D5E8E69B75B349838CC7E28EF93C3 /* CustomUIWindow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomUIWindow.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06F76258A82EF1D5DF3BE144C742392 /* Pods-CustomUIWindow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIWindow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A9CB174F260139E87ED457DD82D445CD /* Pods-CustomUIWindow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomUIWindow_Tests-Info.plist"; sourceTree = "<group>"; };
 		B30D9487C06FF86A7AF139542D3CF785 /* Pods-CustomUIWindow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomUIWindow_Tests.modulemap"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		BB1918C31434A01C00C1C85D26A1221A /* Pods-CustomUIWindow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIWindow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3A306BCF0DA408018A0080BD1A3853D /* CustomUIWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomUIWindow-prefix.pch"; sourceTree = "<group>"; };
 		C590804C6391C210B808F605E6FC016E /* Pods-CustomUIWindow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIWindow_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CB0D757ED082AA89EC63747DC834CC9D /* CustomUIWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomUIWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB0D757ED082AA89EC63747DC834CC9D /* CustomUIWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomUIWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F2B266DCBB80E4B9B07741B07681F0C3 /* Pods-CustomUIWindow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomUIWindow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F530FBB5368FA3A169EE0CF5AE824076 /* CustomUIWindow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomUIWindow-umbrella.h"; sourceTree = "<group>"; };
@@ -315,6 +315,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					14C176A4EB14E3D31A6342BBAA472082 = {
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -407,12 +413,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC4AA4D4E12D692EBBCB719A47D0B2BB /* CustomUIWindow.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -424,10 +432,11 @@
 				MODULEMAP_FILE = "Target Support Files/CustomUIWindow/CustomUIWindow.modulemap";
 				PRODUCT_MODULE_NAME = CustomUIWindow;
 				PRODUCT_NAME = CustomUIWindow;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -602,12 +611,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC4AA4D4E12D692EBBCB719A47D0B2BB /* CustomUIWindow.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -619,10 +630,11 @@
 				MODULEMAP_FILE = "Target Support Files/CustomUIWindow/CustomUIWindow.modulemap";
 				PRODUCT_MODULE_NAME = CustomUIWindow;
 				PRODUCT_NAME = CustomUIWindow;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -717,8 +729,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
