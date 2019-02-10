@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomUIWindow_Example' do
+  pod 'CustomUIWindow', :path => '../'
+
+  target 'CustomUIWindow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
