@@ -1,0 +1,22 @@
+{
+  "name": "CustomUIWindow",
+  "version": "0.1.0",
+  "summary": "A short description of CustomUIWindow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangui/CustomUIWindow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangui": "yang10.zhang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangui/CustomUIWindow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CustomUIWindow/Classes/**/*"
+}

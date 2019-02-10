@@ -1,0 +1,16 @@
+PODS:
+  - CustomUIWindow (0.1.0)
+
+DEPENDENCIES:
+  - CustomUIWindow (from `../`)
+
+EXTERNAL SOURCES:
+  CustomUIWindow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomUIWindow: 543c293b7191913a2810e08a27e3f053ceb512d7
+
+PODFILE CHECKSUM: 54dc8e8bda807e80f0fa312e1577d014f43cbf40
+
+COCOAPODS: 1.6.0
