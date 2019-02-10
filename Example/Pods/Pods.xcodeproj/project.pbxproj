@@ -11,11 +11,11 @@
 		4F8007363E47BEC6332259B640F0C324 /* Pods-CustomUIWindow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7AD06A4719E8FE97E923C24BF76462 /* Pods-CustomUIWindow_Example-dummy.m */; };
 		68E3B60FB69280C54D2A702F8B7A2C76 /* Pods-CustomUIWindow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBF3CF01A406634AF29CA27DFBE9248 /* Pods-CustomUIWindow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73210274E4CEB806C968463FDCC6DDFC /* Pods-CustomUIWindow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B89545E4B5F497DA18E01E5D3AFD1EF8 /* Pods-CustomUIWindow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EAFD76E6F11C7B71FE65C7BA1E254A1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C5B0ADFFAF705094BBEAB1DC913161 /* ReplaceMe.swift */; };
 		A0E5B9DCD66B035BA5E334144ED52223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		C80603BE10BF9B01849BDE73CF83D389 /* Pods-CustomUIWindow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB204673847A27169DCB8DA507870 /* Pods-CustomUIWindow_Tests-dummy.m */; };
 		D740CB215BEA93AC98DA8667E32F5D24 /* CustomUIWindow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F530FBB5368FA3A169EE0CF5AE824076 /* CustomUIWindow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCEC6A6DCE88718A4C12D4B370968EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DEF63FFF2210B6440075FF77 /* CustomUIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF63FFE2210B6440075FF77 /* CustomUIWindow.swift */; };
 		E186BDD18677AB97A5AE44E5AEE747CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,6 @@
 		67B9CBF0ADFF7458566B240D9188D1CA /* CustomUIWindow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomUIWindow-Info.plist"; sourceTree = "<group>"; };
 		6CBF3CF01A406634AF29CA27DFBE9248 /* Pods-CustomUIWindow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomUIWindow_Example-umbrella.h"; sourceTree = "<group>"; };
 		7C7AD06A4719E8FE97E923C24BF76462 /* Pods-CustomUIWindow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomUIWindow_Example-dummy.m"; sourceTree = "<group>"; };
-		83C5B0ADFFAF705094BBEAB1DC913161 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CustomUIWindow/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		859DE8EE9F0A3F5771C2941011BB0FCA /* Pods-CustomUIWindow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomUIWindow_Example-frameworks.sh"; sourceTree = "<group>"; };
 		86222DE37C3EE27CB8C8A36D567CC8CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		883D5E8E69B75B349838CC7E28EF93C3 /* CustomUIWindow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomUIWindow.modulemap; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		C590804C6391C210B808F605E6FC016E /* Pods-CustomUIWindow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomUIWindow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB0D757ED082AA89EC63747DC834CC9D /* CustomUIWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomUIWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DEF63FFE2210B6440075FF77 /* CustomUIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomUIWindow.swift; path = ../CustomUIWindow/Classes/CustomUIWindow.swift; sourceTree = "<group>"; };
 		F2B266DCBB80E4B9B07741B07681F0C3 /* Pods-CustomUIWindow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomUIWindow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F530FBB5368FA3A169EE0CF5AE824076 /* CustomUIWindow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomUIWindow-umbrella.h"; sourceTree = "<group>"; };
 		FC4AA4D4E12D692EBBCB719A47D0B2BB /* CustomUIWindow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomUIWindow.xcconfig; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		1574BC678028E3AAEE7F906CA5E42609 /* CustomUIWindow */ = {
 			isa = PBXGroup;
 			children = (
-				83C5B0ADFFAF705094BBEAB1DC913161 /* ReplaceMe.swift */,
+				DEF63FFD2210B57A0075FF77 /* UIWindow */,
 				03259F40710F8E714A6FD4AC31D448FE /* Pod */,
 				DDF19C4A88C2A706941986B1154528E1 /* Support Files */,
 			);
@@ -219,6 +219,14 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CustomUIWindow";
+			sourceTree = "<group>";
+		};
+		DEF63FFD2210B57A0075FF77 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				DEF63FFE2210B6440075FF77 /* CustomUIWindow.swift */,
+			);
+			path = UIWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,8 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF63FFF2210B6440075FF77 /* CustomUIWindow.swift in Sources */,
 				44DF2B9673F8A9F4EFD428E728ECFDFA /* CustomUIWindow-dummy.m in Sources */,
-				9EAFD76E6F11C7B71FE65C7BA1E254A1 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC4AA4D4E12D692EBBCB719A47D0B2BB /* CustomUIWindow.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -436,6 +445,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -611,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC4AA4D4E12D692EBBCB719A47D0B2BB /* CustomUIWindow.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
