@@ -22,6 +22,7 @@ public class CustomUIWindow: UIWindow {
         print("CGPoint: " + String(point.x.description) + ", " + String(point.y.description))
         let view = super.hitTest(point, with: event)
         // print(view?.frame ?? "")
+        // 1
         let delimiter = ":"
         let newstr = view?.gestureRecognizers?.first?.description ?? ""
         var token = newstr.components(separatedBy: delimiter)

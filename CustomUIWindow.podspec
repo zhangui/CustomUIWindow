@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomUIWindow'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A custom UIWindow for tracking hitTests.'
   s.swift_version = '4.2'
 

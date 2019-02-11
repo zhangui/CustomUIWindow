@@ -33,7 +33,7 @@ public extension UIApplication {
 
 }
 
-private let swizzling: (UIViewController.Type) -> () = { viewController in
+public let swizzling: (UIViewController.Type) -> () = { viewController in
 
     let originalSelector = #selector(viewController.viewWillAppear(_:))
     let swizzledSelector = #selector(viewController.proj_viewWillAppear(animated:))
@@ -47,7 +47,7 @@ private let swizzling: (UIViewController.Type) -> () = { viewController in
 
 }
 
-public extension UIViewController: SwizzlingInjection {
+extension UIViewController: SwizzlingInjection {
 
     //    open override class func initialize() {
     //        // make sure this isn't a subclass
