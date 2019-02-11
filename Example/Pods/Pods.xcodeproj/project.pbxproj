@@ -16,7 +16,6 @@
 		D740CB215BEA93AC98DA8667E32F5D24 /* CustomUIWindow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F530FBB5368FA3A169EE0CF5AE824076 /* CustomUIWindow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCEC6A6DCE88718A4C12D4B370968EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DEF63FFF2210B6440075FF77 /* CustomUIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF63FFE2210B6440075FF77 /* CustomUIWindow.swift */; };
-		DEF6400C22114E730075FF77 /* SwizzlingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6400B22114E730075FF77 /* SwizzlingHelper.swift */; };
 		E186BDD18677AB97A5AE44E5AEE747CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +65,6 @@
 		CB0D757ED082AA89EC63747DC834CC9D /* CustomUIWindow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomUIWindow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DEF63FFE2210B6440075FF77 /* CustomUIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomUIWindow.swift; path = ../CustomUIWindow/Classes/CustomUIWindow.swift; sourceTree = "<group>"; };
-		DEF6400B22114E730075FF77 /* SwizzlingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwizzlingHelper.swift; sourceTree = "<group>"; };
 		F2B266DCBB80E4B9B07741B07681F0C3 /* Pods-CustomUIWindow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomUIWindow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F530FBB5368FA3A169EE0CF5AE824076 /* CustomUIWindow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomUIWindow-umbrella.h"; sourceTree = "<group>"; };
 		FC4AA4D4E12D692EBBCB719A47D0B2BB /* CustomUIWindow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomUIWindow.xcconfig; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 		1574BC678028E3AAEE7F906CA5E42609 /* CustomUIWindow */ = {
 			isa = PBXGroup;
 			children = (
-				DEF6400822114DFA0075FF77 /* MethodSwizzling */,
 				DEF63FFD2210B57A0075FF77 /* UIWindow */,
 				03259F40710F8E714A6FD4AC31D448FE /* Pod */,
 				DDF19C4A88C2A706941986B1154528E1 /* Support Files */,
@@ -230,14 +227,6 @@
 				DEF63FFE2210B6440075FF77 /* CustomUIWindow.swift */,
 			);
 			path = UIWindow;
-			sourceTree = "<group>";
-		};
-		DEF6400822114DFA0075FF77 /* MethodSwizzling */ = {
-			isa = PBXGroup;
-			children = (
-				DEF6400B22114E730075FF77 /* SwizzlingHelper.swift */,
-			);
-			path = MethodSwizzling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,7 +387,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF63FFF2210B6440075FF77 /* CustomUIWindow.swift in Sources */,
-				DEF6400C22114E730075FF77 /* SwizzlingHelper.swift in Sources */,
 				44DF2B9673F8A9F4EFD428E728ECFDFA /* CustomUIWindow-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
