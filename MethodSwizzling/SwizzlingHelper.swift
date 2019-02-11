@@ -11,7 +11,7 @@ public protocol SwizzlingInjection: class {
     static func inject()
 }
 
-class SwizzlingHelper {
+public class SwizzlingHelper {
 
     private static let doOnce: Any? = {
         UIViewController.inject()
@@ -23,7 +23,7 @@ class SwizzlingHelper {
     }
 }
 
-extension UIApplication {
+public extension UIApplication {
 
     override open var next: UIResponder? {
         // Called before applicationDidFinishLaunching
@@ -47,7 +47,7 @@ private let swizzling: (UIViewController.Type) -> () = { viewController in
 
 }
 
-extension UIViewController: SwizzlingInjection {
+public extension UIViewController: SwizzlingInjection {
 
     //    open override class func initialize() {
     //        // make sure this isn't a subclass
