@@ -47,7 +47,7 @@ public class SwizzlingHelper {
     }
 }
 
-public extension UIApplication {
+extension UIApplication {
 
     override open var next: UIResponder? {
         // Called before applicationDidFinishLaunching
